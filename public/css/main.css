@@ -1,7 +1,7 @@
 html,
 body {
-    background-color: #fff;
-    color: #636b6f;
+    background-color: #160b0b;
+    color: #c7dce6;
     font-family: 'Nunito', sans-serif;
     font-weight: 200;
     height: 100vh;
@@ -32,9 +32,7 @@ body {
     text-align: center;
 }
 
-.title {
-    font-size: 84px;
-}
+
 
 .links>a {
     color: #636b6f;
@@ -54,4 +52,18 @@ footer {
     background: #eee;
     padding: 20px;
     text-align: center;
+    color: #5e2195;
+}
+
+
+.title {
+    font-size: 50px;
+    text-transform: uppercase;
+    border-bottom: 2px solid;
+    padding: 12px 0;
+    color: #5e2195;
+}
+
+.sign {
+    border-radius: 100% 100% 0 0 ;
 }

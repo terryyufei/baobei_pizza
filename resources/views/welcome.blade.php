@@ -17,8 +17,8 @@
     @endif
 
     <div class="content">
-        <div class="title m-b-md">
-            BaoBei Pizza<br />
+        <img class="sign" src="pizza-sign2.jpg" alt="sign">
+        <div class="title m-b-md">            
             The North's Best Pizzas
         </div>
     </div>
