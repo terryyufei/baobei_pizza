@@ -20,7 +20,12 @@ Route::get('/', function () {
 
 
 Route::get('/pizzas', [PizzaController::class, 'index']); //view pizza list
+Route::get('/pizzas/create', [PizzaController::class, 'create']); // create pizza
+Route::post('/pizzas', [PizzaController::class, 'store']); // store the pizza
 Route::get('/pizzas/{id}', [PizzaController::class, 'show']); //show pizza
-Route::post('/pizzas', [PizzaController::class, 'store'])->name('pizza.store'); //store pizza
+
+
+
+// Route::post('/pizzas', [PizzaController::class, 'store'])->name('pizza.store'); //store pizza
 
 
