@@ -23,6 +23,7 @@ Route::get('/pizzas', [PizzaController::class, 'index']); //view pizza list
 Route::get('/pizzas/create', [PizzaController::class, 'create']); // create pizza
 Route::post('/pizzas', [PizzaController::class, 'store']); // store the pizza
 Route::get('/pizzas/{id}', [PizzaController::class, 'show']); //show pizza
+Route::delete('/pizzas/{id}', [PizzaController::class,'destroy']); // delete pizza
 
 
 

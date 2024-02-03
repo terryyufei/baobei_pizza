@@ -28,6 +28,16 @@
             <option value="thick">Thick</option>
         </select>
 
+        {{-- TOPPINGS --}}
+        <fieldset>
+            <label>
+                <input type="checkbox" name="toppings[]" value="mushrooms">Mushrooms<br />
+                <input type="checkbox" name="toppings[]" value="pepper">Pepper<br />
+                <input type="checkbox" name="toppings[]" value="garlic">Garlic<br />
+                <input type="checkbox" name="toppings[]" value="olives">Olives<br />
+            </label>
+        </fieldset>
+
         <input type="submit" value="Order Pizza">
     </form>
 </div>

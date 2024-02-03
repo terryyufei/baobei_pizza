@@ -9,4 +9,8 @@ class Pizza extends Model
 {
     use HasFactory;
     protected $fillable =['type','base','name'];
+
+    protected $casts = [
+        'toppings'=> 'array',
+    ];
 }
