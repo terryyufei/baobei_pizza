@@ -9,6 +9,10 @@ use Illuminate\Http\Response;
 
 class PizzaController extends Controller
 {
+    // public function __construct(){
+    //     $this->middleware('auth');
+    // }
+
     public function index() {
         // $pizzas = Pizza::all();
         
